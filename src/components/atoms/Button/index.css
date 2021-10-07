@@ -1,0 +1,15 @@
+.primary {
+  @apply bg-yellow-500 hover:bg-yellow-700 text-white;
+}
+
+.secondary {
+  @apply bg-yellow-300 hover:bg-yellow-400 text-black;
+}
+
+.tertiary {
+  @apply bg-transparent text-black;
+}
+
+.danger {
+  @apply bg-red-800 hover:bg-red-600 text-white;
+}

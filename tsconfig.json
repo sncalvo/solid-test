@@ -8,6 +8,13 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "baseUrl": "./src",
+    "paths": {
+      "@atoms": ["components/atoms"],
+      "@molecules": ["components/molecules"],
+      "@organisms": ["components/organisms"],
+      "@pages": ["components/pages"]
+    }
   }
 }
